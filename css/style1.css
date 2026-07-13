@@ -1,0 +1,62 @@
+body{
+    font-family: Arial, sans-serif;
+    width: 80%;
+    margin: auto;
+    background: #ffffff;
+}
+/*tiêu đề*/
+h1{
+    color: rgb(255, 0, 191);
+    text-align: center;
+}
+
+h2{
+    color: rgb(224, 91, 182);
+}
+/*pic*/
+img{
+    border-radius: 10px;
+}
+
+ul,ol{
+    line-height: 30px;
+}
+/*liên hệ*/
+a{
+    text-decoration: none;
+    color: rgb(0, 183, 255);
+}
+
+a:hover{
+    color: blue;
+}
+/*bảng thông tin chi tiết*/
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+    margin-bottom:30px;
+    background:#ffffff;
+    box-shadow:0 3px 8px rgba(0,0,0,0.15);
+}
+
+table th{
+    background:#7b0252;
+    color:rgb(255, 255, 255);
+    padding:12px;
+    font-size:18px;
+}
+
+table td{
+    padding:12px;
+    font-size:17px;
+    border:1px solid #ddd;
+}
+
+table tr:nth-child(even){
+    background:#f5f9ff;
+}
+
+table tr:hover{
+    background:#dbeeff;
+}
