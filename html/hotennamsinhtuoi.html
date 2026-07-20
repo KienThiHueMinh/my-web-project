@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tính tuổi</title>
+</head>
+<body>
+    <script>
+    let hoten = prompt("Nhập họ tên:");
+    let namsinh = Number(prompt("Nhập năm sinh:"));
+    let tuoi = new Date().getFullYear() - namsinh;
+
+        document.write("Họ tên: " + hoten + "<br>");
+        document.write("Tuổi: " + tuoi);
+    </script>
+</body>
+</html>
